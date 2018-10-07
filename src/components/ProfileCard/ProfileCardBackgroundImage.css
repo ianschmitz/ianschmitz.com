@@ -1,0 +1,27 @@
+.ProfileCardBackgroundImage {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    background-image: url("./ProfileCardBackgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ProfileCardBackgroundImage:before,
+.ProfileCardBackgroundImage:after {
+    background-color: #31313a;
+    content: "";
+    position: absolute;
+    left: -6%;
+    bottom: -70px;
+    width: 470px;
+    height: 85px;
+    transform: rotate(12deg);
+}
+
+.ProfileCardBackgroundImage:after {
+    left: auto;
+    right: -6%;
+    transform: rotate(-6deg);
+}

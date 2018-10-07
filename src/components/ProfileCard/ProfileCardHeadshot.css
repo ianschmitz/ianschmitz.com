@@ -1,0 +1,11 @@
+.ProfileCardHeadshot {
+    margin-top: -6rem;
+    position: relative;
+}
+
+.ProfileCardHeadshot img {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #31313a;
+    border-radius: 100%;
+}

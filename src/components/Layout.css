@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    background-color: #18181c;
+    color: #eeeeee;
+    font-family: "Poppins", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}

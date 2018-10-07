@@ -1,0 +1,7 @@
+.AboutCard {
+    width: 40rem;
+    height: 37.5rem;
+    padding: 1rem;
+    background-color: #31313a;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
